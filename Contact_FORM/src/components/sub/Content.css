@@ -1,0 +1,89 @@
+#ko {
+    display:inline-flex;
+    flex-flow: row wrap;
+    justify-content: center;
+   
+    width: 100%;
+    /* margin-top: -125px; */
+
+  }
+  #kkp{
+    border: 3px solid #2860907c;
+   margin-left: 20px;
+   border-radius: 10px;
+  
+   margin-right: 20px;
+    height: auto;
+    width:95%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+#klm,#klm1,#klm2 {
+    background-color: #98d4f3;
+    float: left;
+    color: #286090;
+    border-radius: 10px;
+    width: 20%;
+    align-items: center;
+    border: 1px solid rgb(255 255 255 / 63%);
+     
+        height:100px;
+        align-items: center;
+        justify-content: center;
+    /* margin-top: 20px; */
+
+    margin: 0px;
+    flex: 100%;
+    text-align: center;
+
+  }
+  h2{
+    line-height: 55px;
+    font-size: 18px;
+    overflow:auto;
+  }
+  
+  @media (max-width: 910px) {
+    #klm,#klm1,#klm2 {
+   
+      width: 370px;
+  
+      
+      flex: 100%;
+      line-height: 55px;
+    font-size: 20px;
+      }
+      #kkp{
+        width: 376px;
+      }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    #klm,#klm1,#klm2 {
+         max-width: 250px;
+         line-height: 75px;
+    font-size: 20px;
+   
+    
+         flex: 0  100%;
+      }
+      #kkp{
+        width: 256px;
+      }
+  }
+  #klm1:hover{
+    
+    color: white;
+    background-color: #90282db0;
+
+  }
+  #klm2:hover{
+    
+    color: white;
+    background-color: #286090c7;
+
+  }
